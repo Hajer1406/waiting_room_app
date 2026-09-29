@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:async'; // Required for the Timer class
 class WaitingRoomTimestamp extends StatefulWidget {
-const WaitingRoomTimestamp({super.key});
-@override
-State<WaitingRoomTimestamp> createState() => _WaitingRoomTimestampState();
+  const WaitingRoomTimestamp({super.key});
+  @override
+  State<WaitingRoomTimestamp> createState() => _WaitingRoomTimestampState();
 }
 class _WaitingRoomTimestampState extends State<WaitingRoomTimestamp> {
 // A variable to hold the current time
